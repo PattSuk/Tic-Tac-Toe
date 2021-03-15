@@ -49,6 +49,10 @@ body {
   cursor: pointer;
 }
 
+.cell:focus {
+  outline: none;
+}
+
 .cell:first-child, .cell:nth-child(2), .cell:nth-child(3) {
   border-top: none;
 }
@@ -150,6 +154,10 @@ body {
   padding: 0.25rem 0.5rem;
   cursor: pointer;
   border-radius: 5px;
+}
+
+.winning-message button:focus {
+  outline: none;
 }
 
 .winning-message button:hover {

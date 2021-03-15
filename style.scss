@@ -37,6 +37,10 @@ body {
   position: relative;
   cursor: pointer;
 
+  &:focus {
+    outline: none;
+  }
+
   &:first-child,
   &:nth-child(2),
   &:nth-child(3) {
@@ -138,6 +142,10 @@ body {
     padding: 0.25rem 0.5rem;
     cursor: pointer;
     border-radius: 5px;
+
+    &:focus {
+      outline: none;
+    }
 
     &:hover {
       background-color: $primary-color;
